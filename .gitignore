@@ -1,0 +1,41 @@
+# Raw data folder (too large for GitHub)
+data/raw_data/
+
+# Processed data (optional - uncomment if also too large)
+# data/processed_data/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Mac OS
+.DS_Store
+
+# Spark logs and metastore
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Output files
+*.log
+*.csv.gz
+*.parquet
