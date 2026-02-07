@@ -370,7 +370,7 @@ def load_models():
 @st.cache_data(show_spinner=False)
 def load_route_data():
     """Load and prepare route data from the processed dataset - cached for performance"""
-    csv_path = '/Users/dikshanta/Documents/Assignment-Big-Data/combined.csv'
+    csv_path = '/Users/dikshanta/Documents/Assignment-Big-Data/Obtained_Dataset/combined.csv'
     
     try:
         df = pd.read_csv(csv_path)
