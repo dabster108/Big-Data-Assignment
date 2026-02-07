@@ -1,0 +1,24 @@
+{
+  "timestamp": "20260207_101744",
+  "model_type": "RandomForestRegressor",
+  "num_trees": 100,
+  "max_depth": 15,
+  "features": [
+    "LineName_Encoded",
+    "Direction_Encoded",
+    "Sequence",
+    "TimingStatus_Encoded",
+    "Distance_km",
+    "Hour",
+    "IsRushHour",
+    "TimeOfDay_Encoded",
+    "FromLat",
+    "FromLon",
+    "ToLat",
+    "ToLon"
+  ],
+  "r2_score": 0.8386351074932512,
+  "mae": 0.11463753290446474,
+  "rmse": 0.22119720071191354,
+  "training_time": 27.11310911178589
+}
