@@ -340,6 +340,22 @@ df.show(5)
 
 ---
 
+## 📊 Visualizations
+
+### System Architecture
+
+![System Architecture Diagram](Visualizations/system_architecture_diagram.png)
+
+### Algorithm Time Complexity Analysis
+
+![Algorithm Complexity Analysis](Visualizations/algorithm_complexity_analysis.png)
+
+### Exploratory Data Analysis
+
+![EDA Analysis](Visualizations/eda_analysis.png)
+
+---
+
 ## ⚠️ Known Issues
 
 1. Some XML files have missing coordinates
